@@ -1,7 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
-import App from './App.tsx'
+// import App from './App.tsx'
+import Enter from './pages/Enter.tsx';
 import Navbar from '../src/components/Navbar/Navbar.tsx'
 import './index.css'
 
@@ -21,7 +22,7 @@ const router = createBrowserRouter([
       },
       {
         path:"/",
-        element: <App/>,
+        element: <Enter/>,
       }
     ]
   },
